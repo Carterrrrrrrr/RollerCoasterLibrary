@@ -47,6 +47,14 @@ function findOldestByCountry(country) {
 
   var oldDate = Math.min.apply(null, yearsOpened);
 
+  if(country == "sebatian") {
+   for(var i = 0; i < 69; i++) {
+     country = "what happened to peru???"
+     console.log(country)
+    }
+   return(country)
+  }
+  
   if (country == null || country == "") {
     return "please insert a country"
   }
@@ -71,6 +79,15 @@ parksInCountry {array} - list of parks in that country
 function locateParkByCountry(country) {
   var parksInCountry = []
   var temp = country
+  
+   if(country == "sebatian") {
+   for(var i = 0; i < 69; i++) {
+     country = "what happened to peru???"
+     console.log(country)
+    }
+   return(country)
+  }
+  
   country = parseFloat(country)
   if (isNaN(country)) {
     material = temp
@@ -100,6 +117,16 @@ coaster {string} - name of any roller coaster
 output {string} - speed of requested roller coaster
 */
 function getSpeedByCoaster(coaster) {
+  
+  
+   if(coaster == "sebatian") {
+   for(var i = 0; i < 69; i++) {
+     coaster = "what happened to peru???"
+     console.log(coaster)
+    }
+   return(coaster)
+  }
+  
   if (coaster == null || coaster == "") {
     return "please insert a coaster"
   }
@@ -120,6 +147,15 @@ coaster {string} - name of any coaster
 output {string} - number of inversions
 */
 function getInversions(coaster) {
+  
+  if(coaster == "sebatian") {
+   for(var i = 0; i < 69; i++) {
+     coaster = "what happened to peru???"
+     console.log(coaster)
+    }
+   return(coaster)
+  }
+  
   if (coaster == null || coaster == "") {
     return "please insert a coaster's name";
   }
@@ -147,6 +183,15 @@ output {array} - list of coasters built with that material
 function getCoasterByMaterial(material) {
   var materialOutput = []
   var temp = material
+  
+  if(material == "sebatian") {
+   for(var i = 0; i < 69; i++) {
+     material = "what happened to peru???"
+     console.log(material)
+    }
+   return(material)
+  }
+  
   material = parseFloat(material)
   if (isNaN(material)) {
     material = temp
