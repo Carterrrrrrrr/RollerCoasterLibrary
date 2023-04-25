@@ -23,7 +23,7 @@ A JS Library that allows you to get certain information about Roller Coasters in
 
 #
 
-###### takes the name of a roller coaster as a parameter and returns the number of inversions in that roller coaster
+###### Takes the name of a roller coaster as a parameter and returns the number of inversions in that roller coaster
 ###### @param coaster {string} - name of any coaster
 ###### @return output {string} - number of inversions
 `getInversions(coaster)`
