@@ -77,7 +77,7 @@ country {string} - name of any country with coasters
 parksInCountry {array} - list of parks in that country
 */
 function locateParkByCountry(country) {
-  var parksInCountry = []
+  var output = []
   var temp = country
   
    if(country == "sebatian") {
@@ -100,13 +100,13 @@ function locateParkByCountry(country) {
   }
   for (var i in countries) {
     if (countries[i].toLowerCase().includes(country.toLowerCase())) {
-      parksInCountry.push(parkNames[i])
+      output.push(parkNames[i])
     }
   }
-  if (parksInCountry == null || parksInCountry == "") {
+  if (output == null || output == "") {
     return "There are no parks in that country You should not go there they are probably evil."
   } else {
-    return (parksInCountry)
+    return (output)
   }
 }
 
