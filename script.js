@@ -47,7 +47,7 @@ function findOldestByCountry(country) {
 
   var oldDate = Math.min.apply(null, yearsOpened);
 
-  if(country == "sebatian") {
+  if(country == "sebastian") {
    for(var i = 0; i < 69; i++) {
      country = "what happened to peru???"
      console.log(country)
@@ -80,7 +80,7 @@ function locateParkByCountry(country) {
   var output = []
   var temp = country
   
-   if(country == "sebatian") {
+   if(country == "sebastian") {
    for(var i = 0; i < 69; i++) {
      country = "what happened to peru???"
      console.log(country)
@@ -119,7 +119,7 @@ output {string} - speed of requested roller coaster
 function getSpeedByCoaster(coaster) {
   
   
-   if(coaster == "sebatian") {
+   if(coaster == "sebastian") {
    for(var i = 0; i < 69; i++) {
      coaster = "what happened to peru???"
      console.log(coaster)
@@ -148,7 +148,7 @@ output {string} - number of inversions
 */
 function getInversions(coaster) {
   
-  if(coaster == "sebatian") {
+  if(coaster == "sebastian") {
    for(var i = 0; i < 69; i++) {
      coaster = "what happened to peru???"
      console.log(coaster)
@@ -184,7 +184,7 @@ function getCoasterByMaterial(material) {
   var materialOutput = []
   var temp = material
   
-  if(material == "sebatian") {
+  if(material == "sebastian") {
    for(var i = 0; i < 69; i++) {
      material = "what happened to peru???"
      console.log(material)
