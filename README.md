@@ -11,7 +11,7 @@ A JS Library that allows you to get certain information about Roller Coasters in
 
 ###### Takes the name of a country as a parameter and returns all theme parks in that country
 ###### @param country {string} - name of any country with coasters 
-###### @return parksInCountry {array} - list of parks in that country
+###### @return output {array} - list of parks in that country
 `locateParkByCountry(country)`
 
 #
